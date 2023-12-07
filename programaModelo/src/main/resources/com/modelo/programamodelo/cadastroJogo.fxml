@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="238.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.modelo.programamodelo.controller.jogoController">
+    <children>
+        <Label style="-fx-font-size: 18px;" text="Cadastro de Jogo" />
+
+        <HBox>
+            <Label text="Título:" />
+            <TextField fx:id="tituloField" />
+        </HBox>
+
+        <HBox>
+            <Label text="Gênero:" />
+            <TextField fx:id="generoField" />
+        </HBox>
+
+        <HBox>
+            <Label text="Plataforma:" />
+            <TextField fx:id="plataformaField" />
+        </HBox>
+
+        <Button onAction="#cadastrarJogo" text="Cadastrar" />
+        <Button onAction="#mostrarLista" text="Ver Lista" />
+
+    </children>
+</VBox>

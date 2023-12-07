@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="296.0" prefWidth="389.0" spacing="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.modelo.programamodelo.controller.ListaJogosController">
+
+    <Label style="-fx-font-size: 18px;" text="Lista de Jogos Cadastrados" />
+
+    <ListView fx:id="listaJogosView" />
+    <Button onAction="#voltar" text="voltar" />
+</VBox>
